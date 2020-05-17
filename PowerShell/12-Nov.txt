@@ -1,0 +1,86 @@
+
+#Conditiion, loop, string handling and array.
+
+
+## array : is collectio of data or multiple values 
+# multipe value can be stored on single variable
+# array index start from 0 index 
+# last index will be len - 1
+
+[int[]] $e = 1122232,22122,1111,2222,3333,4444,23223,4444,333,34444,5555
+
+$e[1]
+
+$i =0
+while ($i -le 8){
+
+    $e[$i]
+      $i=$i+1
+}
+
+
+
+
+#Question B29: WAP to print counting from 1 to 10.
+$i = 1
+While($i -lt 10){
+$i
+$i++
+}
+
+#Question B30: WAP to print counting from 10 to 1.
+$i = 10
+While ($i -gt 0){
+$i
+$i--
+}
+
+#Question B31: WAP to print counting from 51 to 90.
+$i = 51
+While($i -le 70){
+$i
+$i++
+}
+
+#Question B32: WAP to find out the sum and average of all the numbers within the given range.
+
+[int] $a = Read-Host -Prompt "A"
+[int]  $b = Read-Host -Prompt "B"
+
+$Sum = 0
+
+While($a -le $b){
+    
+    $Sum = $Sum + $a
+    $a = $a + 1
+
+}
+$Sum
+
+
+
+
+
+
+
+    $Sum = $Sum+ $i 
+    $Sum
+    $i = $i + 1
+}
+
+$Sum
+
+
+
+
+ 
+
+ $i = 1
+while ($i -le 50){
+
+    if ($i % 2 -eq 0){
+        $i 
+    }
+
+    $i = $i +1 
+}

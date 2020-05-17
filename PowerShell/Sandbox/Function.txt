@@ -1,0 +1,15 @@
+Function: is set of command or statement which is reusable 
+============================================================
+Advantage of Function:
+-Reusability of source code
+-Support to modular programing/Complex and large task
+can be written in small set of code
+-Easy to manage the source code 
+
+
+There are following types of function:
+-No argument no return
+-No argument with return
+-Argument with no return
+-Argument with return 
+

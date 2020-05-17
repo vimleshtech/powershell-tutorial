@@ -1,0 +1,123 @@
+Today's Topics
+=================
+-Powershell Essentials
+-Variable
+-DataType
+-Operator
+-Condition 
+
+Powershell Essentials:
+=========================
+Powershell Command line 
+Powershell ISE 			: Editor 
+Extension of powershell script is .ps1 
+
+ctrl + 	: to increase the font size
+ctrl - 	: to decrease the font size
+
+
+F5	: to execute all lines /statement
+F8	: to execute selected lines /statement 
+#	: is for single line comment 	(commented code will not execute)
+Powershell allocates memory automatically based on assign data 
+	$a = 11   # int
+	$a ="11"  #string 
+ 	
+
+Variable : is temp. memory where data can be stored 
+====================================================
+$		: is syntax to declare the variable
+
+Example:
+	Correct Syntax:
+		$a =11
+		$a1 = 333
+		$a_b =333
+		$_abcd =111
+		$_abcd_1 ="abcd"
+
+	Incorrect Syntax:
+		$1a  =111
+		$a b =333
+		$a+b  =444
+
+DataType
+===================
+ [string]*    Fixed-length string of Unicode characters
+		-string is alpha numeric (alphabets,  number, and special chars)
+		-string allocates dynamic size of variable 
+		 $a ="skhhsj shgfg3fgdg2fdf2df2sfd2s2dfs2f ..."
+
+ [char]      A Unicode 16-bit character
+		-string is alpha numeric (alphabets,  number, and special chars)
+		-fix size , maximum size is 16bit
+		 $c = 'skjshhhg222'
+		
+ [byte]      An 8-bit unsigned character
+		
+
+ [int]*       32-bit signed integer		# NUMBER  113333
+ [long]*      64-bit signed integer		# NUMBER   43333222
+ [bool] *     Boolean True/False value		
+		      1/0
+ [decimal]   A 128-bit decimal value		#  $a =3333333334.3232334444
+							
+ [single]    Single-precision 32-bit floating point number
+				
+ [double]*    Double-precision 64-bit floating point number
+
+ [DateTime]*  Date and Time
+
+ [xml]       Xml object
+			<conf>
+				<name> raman </name>
+			</conf>
+ [array]*     An array of values
+		-is collection of data or multiple values can be stored on single variable 
+		
+ [hashtable] Hashtable object
+		-is reference type / can hold the address of data (just like pointer)
+
+Operator
+===============================
+Arithmetic Operator:
+				$a =1   , $b =  33
+	+		: add	 $a + $b			
+	-		: sub	$a - $b	
+	*		: mul	$a * $b
+	/		: div 	85 /10  = 8.5
+	%		: reminder   85 % 10 = 5
+
+Assignment Operator:
+	=		$a =222
+	+=		$a+=1 		or $a = $a +1
+	-=		$a-=1				
+	*=		$a*=2		or $a = $a * 2
+	/=	
+		
+Comparision Operator:
+	-eq		: ==
+	-le		: <=
+	-lt		: <
+	-ge		: >=
+	-gt 		: >
+	
+		example:
+				$a =10
+				if ( $a -lt 10 )   # false 
+				
+				..
+				$a ="c:///"
+				$b ="c://a..."
+
+				if ( $a -eq $b )
+				
+Condition: is decision making statement 
+========================
+There are following types :
+-if condition 
+-if else condition 
+-if else if ...else if ...else conditon   / ladder if else 
+-nested if else  / if inside if condition 
+
+-switch case 

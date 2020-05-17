@@ -1,0 +1,20 @@
+<users>
+	<user>
+		<id> 1 </id>
+		<name> nitin </name>
+		<age> 23 </age>
+		<gender> male </gender>
+	</user>
+	<user>
+		<id> 2 </id>
+		<name> jatin </name>
+		<age> 31 </age>
+		<gender> male </gender>
+	</user>
+	<user>
+		<id> 3 </id>
+		<name> nitisha </name>
+		<age>23</age>
+		<gender>female</gender>
+	</user>	
+</users>
